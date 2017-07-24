@@ -30,4 +30,8 @@ class AnimationActivity : AppCompatActivity() {
             animationDrawable.start()
         }
     }
+
+    companion object {
+        const val ANIMATION_ACTIVITY = 1
+    }
 }

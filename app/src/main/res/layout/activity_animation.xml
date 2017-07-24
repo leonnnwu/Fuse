@@ -16,21 +16,22 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
         <Button
             android:id="@+id/start_frame"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="帧动画" />
+            android:text="Frame animation" />
         <Button
             android:id="@+id/start_tween"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tween动画" />
+            android:text="Tween animation" />
         <Button
             android:id="@+id/start_property"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="属性动画" />
+            android:text="Property animation" />
     </LinearLayout>
 </LinearLayout>
